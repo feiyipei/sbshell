@@ -45,7 +45,8 @@
       "listen": "0.0.0.0",
       "listen_port": 7895,
       "sniff": true,
-      "sniff_override_destination": false
+      "sniff_override_destination": false,
+      "route_exclude_address_set": ["geoip-cn"]
     },
     {
       "type": "mixed",
