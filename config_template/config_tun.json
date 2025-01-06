@@ -23,8 +23,8 @@
 
   "dns": {
     "servers": [
-      {"tag": "proxyDns", "address": "59.49.49.49", "address_resolver": "defaultDns", "address_strategy": "ipv4_only", "detour": "🚀 节点选择"},
-      {"tag": "localDns", "address": "tls://8.8.8.8", "address_resolver": "defaultDns", "address_strategy": "ipv4_only", "detour": "🎯 全球直连"},
+      {"tag": "proxyDns", "address": "https://dns.google/dns-query", "address_resolver": "defaultDns", "address_strategy": "ipv4_only", "detour": "🚀 节点选择"},
+      {"tag": "localDns", "address": "59.49.49.49", "address_resolver": "defaultDns", "address_strategy": "ipv4_only", "detour": "🎯 全球直连"},
       {"tag": "defaultDns", "address": "59.49.49.49", "address_strategy": "ipv4_only", "detour": "🎯 全球直连"}
     ],
     "rules": [
